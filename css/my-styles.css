@@ -19,6 +19,12 @@
         font-style: normal;
         color: #3367b1;}
 
+        section h1 {
+            text-align:left;
+            font-family: "neulis-cursive", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        }
 
         article img {
         max-width: 100%;
@@ -279,6 +285,10 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
 }
 
 .hero h1 {
+    text-align:left;
+            font-family: "neulis-cursive", sans-serif;
+        font-weight: 700;
+        font-style: normal;
   margin-bottom: 10px;
 }
 
