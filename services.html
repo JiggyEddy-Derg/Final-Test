@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Edward Salguero | Services</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="css/my-styles.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto Sans">
+</head>
+<body>
+
+<header>
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="logo">
+        <h2>Edward Salguero</h2>
+      </a>
+
+      <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+
+      <ul class="nav-menu">
+        <li class="nav-item"><a href="index.html">Home</a></li>
+        <li class="nav-item"><a href="gallery.html">Gallery</a></li>
+        <li class="nav-item"><a href="services.html" class="active">Services</a></li>
+        <li class="nav-item"><a href="about.html">About</a></li>
+        <li class="nav-item"><a href="resume.html">Resume</a></li>
+        <li class="nav-item"><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+</header>
+
+
+<section class="w3-container w3-center w3-padding-64">
+  <h1>Services I Offer</h1>
+  <p class="w3-large">From illustration to branding, I help bring ideas to life.</p>
+</section>
+
+
+<section class="w3-row-padding w3-center w3-padding-64">
+  
+  <div class="w3-third w3-margin-bottom">
+    <img src="assets/illustration-icon.png" alt="Illustration" style="width:80px">
+    <h3>Character Illustration</h3>
+    <p>Expressive characters with personality and storytelling built in.</p>
+  </div>
+
+  <div class="w3-third w3-margin-bottom">
+    <img src="assets/design-icon.png" alt="Design" style="width:80px">
+    <h3>Visual Design</h3>
+    <p>Clean layouts, thoughtful branding, and design systems that work.</p>
+  </div>
+
+  <div class="w3-third w3-margin-bottom">
+    <img src="assets/branding-icon.png" alt="Branding" style="width:80px">
+    <h3>Branding & Identity</h3>
+    <p>Unique logos, color palettes, and visual assets that define your brand.</p>
+  </div>
+
+</section>
+
+
+<section class="w3-container w3-center w3-padding-64">
+  <h2>Interested in working together?</h2>
+  <p>Whether it's a project, commission, or collaboration, let's chat!</p>
+  <a href="contact.html" class="w3-button w3-dark-blue w3-round-large">Get in Touch</a>
+</section>
+
+<footer class="w3-center w3-padding-24">
+  <p>&copy; 2025 Edward Salguero</p>
+</footer>
+
+<script>
+const hamburger = document.querySelector(".hamburger");
+const navMenu = document.querySelector(".nav-menu");
+
+hamburger.addEventListener("click", () => {
+  hamburger.classList.toggle("active");
+  navMenu.classList.toggle("active");
+});
+</script>
+
+</body>
+</html>
